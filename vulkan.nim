@@ -389,7 +389,7 @@ const
   vkLodClampNone* = 1000.0
   vkRemainingMipLevels* = (not 0'u32)
   vkRemainingArrayLayers* = (not 0'u32)
-  vkWholeSize* = (not 0'u32)
+  vkWholeSize* = (not 0'u64) #-- TODO THIS WAS WRONG AS 32 bit
   vkAttachmentUnused* = (not 0'u32)
   vkTrue* = 1
   vkFalse* = 0
